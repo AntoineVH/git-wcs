@@ -46,9 +46,16 @@
 }
 
 .dead {
-  font-size: 3500%;
-  text-align: center;
-  opacity: 1;
+    padding: 3vh;
+    font-size: 4vw;
+    text-align: center;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 575px) {
+    .dead {
+        font-size: 10vw;
+    }
 }
 
 .card-img-top{
